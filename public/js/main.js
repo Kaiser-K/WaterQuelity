@@ -73,22 +73,22 @@
             datasets: [{
                     label: "Temp",
                     data: [15, 30, 55, 65, 60, 80, 95],
-                    backgroundColor: "rgba(235, 22, 22, .7)"
+                    backgroundColor: "#0f5e9c"
                 },
                 {
                     label: "DO",
                     data: [8, 35, 40, 60, 70, 55, 75],
-                    backgroundColor: "rgba(235, 22, 22, .5)"
+                    backgroundColor: "#2389da"
                 },
                 {
                     label: "pH",
                     data: [12, 25, 45, 55, 65, 70, 60],
-                    backgroundColor: "rgba(235, 22, 22, .3)"
+                    backgroundColor: "#1ca3ec"
                 },
                 {
                     label: "TDS",
                     data: [12, 25, 45, 55, 65, 70, 60],
-                    backgroundColor: "rgba(235, 22, 22, .3)"
+                    backgroundColor: "#5abcd8"
                 }
             ]
             },
@@ -107,13 +107,13 @@
             datasets: [{
                     label: "Salse",
                     data: [15, 30, 55, 45, 70, 65, 85],
-                    backgroundColor: "rgba(235, 22, 22, .7)",
+                    backgroundColor: "#0f5e9c",
                     fill: true
                 },
                 {
                     label: "Revenue",
                     data: [99, 135, 170, 130, 190, 180, 270],
-                    backgroundColor: "rgba(235, 22, 22, .5)",
+                    backgroundColor: "#2389da",
                     fill: true
                 }
             ]
