@@ -149,16 +149,15 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["pH", "Temp", "DO", "TDS"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
                     "rgba(235, 22, 22, .6)",
                     "rgba(235, 22, 22, .5)",
                     "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
                 ],
-                data: [55, 49, 44, 24, 15]
+                data: [55, 49, 44, 24]
             }]
         },
         options: {
@@ -172,16 +171,15 @@
     var myChart5 = new Chart(ctx5, {
         type: "pie",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["pH", "Temp", "DO", "TDS"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
                     "rgba(235, 22, 22, .6)",
                     "rgba(235, 22, 22, .5)",
                     "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
                 ],
-                data: [55, 49, 44, 24, 15]
+                data: [55, 49, 44, 24]
             }]
         },
         options: {
@@ -195,16 +193,15 @@
     var myChart6 = new Chart(ctx6, {
         type: "doughnut",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["pH", "Temp", "DO", "TDS"],
             datasets: [{
                 backgroundColor: [
                     "rgba(235, 22, 22, .7)",
                     "rgba(235, 22, 22, .6)",
                     "rgba(235, 22, 22, .5)",
                     "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
                 ],
-                data: [55, 49, 44, 24, 15]
+                data: [55, 49, 44, 24]
             }]
         },
         options: {
